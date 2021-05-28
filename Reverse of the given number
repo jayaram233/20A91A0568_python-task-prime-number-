@@ -1,0 +1,18 @@
+number = int(input("Enter the number: "))  
+sum= 0  
+while (number > 0):  
+    remainder = number % 10  
+    sum= (sum* 10) + remainder  
+    number = number // 10
+    
+print("The reverse number is  %d" %(sum))
+
+
+Output 1:
+Enter the number: 12345
+The reverse number is 54321
+
+Output 2: 
+Enter the number: 24567
+The reverse number is 76542
+ 
