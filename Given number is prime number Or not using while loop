@@ -1,14 +1,14 @@
-
+#cheking given number is PRIME Or NOT
 num = int(input("enter a number: "))
-i =2  
-j = 0
+i = 2  
+count = 0
 while i <= num // 2:
     if num % i == 0:
-        j=1
+        count = count + 1
         break
-    i=i+1
+    i = i + 1
     
-if j==0:
+if count == 0:
     print("The entered number {} is a PRIME number".format(num))
 else:
     print("The entered number {} is not a PRIME number".format(num))
