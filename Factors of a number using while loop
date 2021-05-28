@@ -1,0 +1,28 @@
+n=int(input("enter the number:"))
+i = 1
+print("factors of %d is" %(n))
+while i<=n :
+    if n%i==0 :
+        print(i)
+    i = i+1
+
+Output 1:
+enter the number: 24
+factors of 24 is 
+1
+2
+3
+4
+6
+12
+24
+
+Output 2:
+enter the number : 12
+factors of 12 is 
+1
+2
+3
+4
+6
+12
